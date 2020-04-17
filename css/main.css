@@ -1,0 +1,18 @@
+.container {
+    display: grid;
+    grid-template-columns: 250px 1fr;
+    grid-template-rows: 200px 100px 400px ;
+    grid-gap: 10px;
+}
+
+
+.item {
+    /* We center the contents of these items. You can also do this with flexbox too! */
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    border: 5px solid rgba(0, 0, 0, 0.03);
+    border-radius: 3px;
+    font-size: 35px;
+    background-color: var(--yellow); /* best colour */
+  }
